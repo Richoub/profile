@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Source+Sans+Pro:wght@700&display=swap');
+
+h1, h2, h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url("https://images.unsplash.com/photo-1603826254095-65b30e1f3bb7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80");
+  background-size: cover;
+}
+
+h1 {
+  color: #28abb9;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+h2 {
+  color: #2d6187;
+  font-size: 20px;
+  font-weight: lighter;
+  font-weight: 500;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #6B72E1;
+  font-weight: 600;
+  font-size: 16px;
+}
+a:hover {
+  color: black;
+}
+
+/* Custom design with class (99% of your design) */
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.img-square {
+  border-radius: 10%;
+}
+.shadowed {
+  box-shadow: 5px 5px 3px #868686d6;
+}
+.btn-green {
+  background-color: #a8dda8;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+.btn-green:hover {
+  background-color: black;
+  color: white;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+}
+.list-inline i:hover {
+  color: black;
+}
+
+/* Design adjustments using id (1% design remaining) */
+#introduction p {
+  margin-bottom: 40px;
+}
+
+/* test for CSS movement */
+.container-2 {
+            width: 300px;
+            height: 100px;
+            position: relative;
+            margin: 100px auto;
+            border-radius: 50px;
+            border: 3px dotted #eee;
+        text-align: center;
+        font-family: sans-serif;
+        padding-top: 10px;
+        }
+
+.dot {
+            position: absolute;
+            background: black;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            transform: rotate(0deg);
+            top: 25px;
+            left: 25px;
+        opacity: 0.1;
+            transition: all 0.75s cubic-bezier(.71,0,.33,1.56) 0ms;
+        }
+
+        .container-2:hover .dot {
+            transform: rotate(360deg);
+            border-radius: 0%;
+            left: 225px;
+        background: pink;
+        }
+
+.dot.two {
+            transition-delay: 3ms;
+        }
+        .dot.three {
+            transition-delay: 6ms;
+        }
+        .dot.four {
+            transition-delay: 9ms;
+        }
+        .dot.five {
+            transition-delay: 11ms;
+        }
+        .dot.six {
+            transition-delay: 14ms;
+        }
+        .dot.seven {
+            transition-delay: 17ms;
+        }
+        .dot.eight {
+            transition-delay: 20ms;
+        }
+        .dot.nine {
+            transition-delay: 23ms;
+        }
+        .dot.ten {
+            transition-delay: 26ms;
+        }
+        .dot.eleven {
+            transition-delay: 29ms;
+        }
+        .dot.twelve {
+            transition-delay: 32ms;
+        }
+        .dot.thirteen {
+            transition-delay: 35ms;
+        }
+        .dot.fourteen {
+            transition-delay: 38ms;
+        }
+        .dot.fifteen {
+            transition-delay: 41ms;
+        }
+        .dot.sixteen {
+            transition-delay: 44ms;
+        }
+        .dot.seventeen {
+            transition-delay: 47ms;
+        }
+        .dot.eighteen {
+            transition-delay: 50ms;
+        }
+        .dot.nineteen {
+            transition-delay: 53ms;
+        }
+        .dot.twenty {
+            transition-delay: 56ms;
+        }
